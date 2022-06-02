@@ -1,0 +1,76 @@
+$Lato : 'Lato',sans-serif;
+@mixin text($fw,$fs,$lh,$c){
+    font-family: $Lato;
+    font-style: normal;
+    line-height: $lh;
+    color: $c;
+    font-weight: $fw;
+    font-size: $fs;
+}
+
+@mixin before($url,$t){
+    content: $url;
+            position: absolute;
+            left: 50%;
+            top: $t;
+            transform: translate(-50%);
+            // width: $w;
+            // height: $h;
+}
+
+.technology{
+    padding: 63px 0 108px;
+    background: #FFFFFF;
+
+    &__title{
+        @include text(600,36px,43px,#000000);
+        text-align: center;
+    }
+
+    &__col-3{
+        padding-top: 52px;
+        padding-bottom: 33px;
+        height: 226px;
+
+    }
+    &__col-3:first-child &__num::before{
+        @include before(url('../images/technology/Frame\ 3.svg'),45px );
+    }
+    &__col-3:nth-child(2) &__num::before{
+        @include before(url('../images/technology/Frame\ 4.svg') ,34px);
+    }
+    &__col-3:nth-child(3) &__num::before{
+        @include before(url('../images/technology/Frame\ 5.svg'),30px );
+    }
+    &__col-3:nth-child(4) &__num::before{
+        @include before(url('../images/technology/Frame\ 6.svg'),35px );
+    }
+    &__num{
+        @include text(700,100px,120px,rgba(16, 16, 16, 0.08));
+        text-align: center;
+        position: relative;
+        // &:first-child::before{
+        //     @include before(url('../images/technology/Frame\ 3.svg'),80px,80px );
+        // }
+        // &:nth-child(2)::before{
+        //     @include before(url('../images/technology/Frame\ 4.svg'),66px,66px );
+        // }
+        // &:nth-child(3)::before{
+        //     @include before(url('../images/technology/Frame\ 5.svg'),54px,48px );
+        // }
+        // &:nth-child(4)::before{
+        //     @include before(url('../images/technology/Frame\ 6.svg'),53px,47px );
+        // }
+    }
+    &__col-title{
+        margin-top: 19px;
+        @include text(700,18px,22px,#101010);
+        text-align: center;
+    }
+    &__subtitle{
+        margin-top: 10px;
+        @include text(400,12px,14px,#000000);
+        text-align: center;
+    }
+    
+}

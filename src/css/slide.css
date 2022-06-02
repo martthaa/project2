@@ -1,0 +1,41 @@
+.slide {
+  padding: 94px 0 95px;
+  background: #ED4C5C;
+}
+.slide__title {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  line-height: 43px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 36px;
+}
+.slide .col-6 {
+  padding-top: 25px;
+  padding-bottom: 16px;
+}
+.slide .col-6:nth-child(2) {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.slide__subtitle {
+  margin: 25px 0 40px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  line-height: 140%;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  width: 90%;
+}
+.slide__icon {
+  margin-right: 25px;
+}
+.slide__icon img {
+  width: 32px;
+  height: 32px;
+}
+.slide__col-6 {
+  height: 100%;
+  background: url("../images/slide/Video_bg.png") top left/100% 100% no-repeat;
+}

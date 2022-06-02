@@ -1,0 +1,62 @@
+$Lato : 'Lato',sans-serif;
+@mixin text($fw,$fs,$lh,$c){
+    font-family: $Lato;
+    font-style: normal;
+    line-height: $lh;
+    color: $c;
+    font-weight: $fw;
+    font-size: $fs;
+}
+
+.footer{
+    padding: 85px 0 86px;
+    background: #FAFAFA;
+
+    &__title{
+        @include text(700,18px,22px,#101010);
+        margin-bottom: 33px;
+    }
+
+    &__copyright{
+        margin-top: 141px;
+        @include text(400,12px,14px,#101010);
+    }
+
+    &__address-text{
+        @include text(400,12px,150%,#101010);
+    }
+
+    &__services-text a, &__services-text li{
+        @include text(400,12px,160%,#000000);
+        list-style-type: none;
+        text-decoration: none;
+
+    }
+
+    &__GetinTouch-text{
+        @include text(400,12px,14px,#101010);
+        list-style-type: none;
+    }
+
+    &__GetinTouch-text li{
+        margin-bottom: 11px;
+        &:nth-child(2){
+            margin-bottom: 21px;
+        }
+    }
+
+    &__GetinTouch-text li a{
+        text-decoration: none;
+        color: #101010;
+    }
+
+    &__li{
+        display: flex;
+        column-gap: 16px;
+    }
+
+    &__Support-photo{
+        width: 216px;
+        height: 31px;
+    }
+}

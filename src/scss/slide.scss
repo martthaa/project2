@@ -1,0 +1,45 @@
+$Lato : 'Lato',sans-serif;
+@mixin text($fw,$fs,$lh,$c){
+    font-family: $Lato;
+    font-style: normal;
+    line-height: $lh;
+    color: $c;
+    font-weight: $fw;
+    font-size: $fs;
+}
+.slide{
+    padding: 94px 0 95px;
+    background: #ED4C5C;
+    &__title{
+        @include text(600,36px,43px,#FFFFFF);
+    }
+
+    .col-6{
+        padding-top: 25px;
+        padding-bottom: 16px;
+        &:nth-child(2){
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+
+    &__subtitle{
+        margin: 25px 0 40px;
+        @include text(400,14px,140%,#FFFFFF);
+        width: 90%;
+    }
+
+    &__icon{
+        margin-right: 25px;
+    }
+
+    &__icon img{
+        width: 32px;
+        height: 32px;
+    }
+
+    &__col-6{
+        height: 100%;
+        background: url('../images/slide/Video_bg.png') top left/100% 100% no-repeat;
+    }
+}

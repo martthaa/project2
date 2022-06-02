@@ -1,0 +1,32 @@
+@import '../libs/bootstrap/css/bootstrap-grid.min.css';
+@import '../fonts/Lato/stylesheet.css';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    margin: 0 -15px;
+}
+
+@import 'header.css'; 
+@import 'home.css';
+@import 'video.css';
+@import 'features';
+@import 'technology.css';
+@import 'slide.css';
+@import 'contact.css';
+@import 'footer.css';
+@import 'media.scss';
+
+
+
+
+

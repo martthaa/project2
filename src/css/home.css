@@ -1,0 +1,46 @@
+.home {
+  padding: 58px 0 187px;
+  background: url("../images/home/Bg.png") top left/100% 100% no-repeat;
+}
+.home__title {
+  padding-top: 257px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+.home__subtitle {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 40px 0;
+}
+.home__btn {
+  width: 160px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #ED4C5C;
+  display: block;
+  margin: 0 auto;
+}

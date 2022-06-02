@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+  .container {
+    max-width: 980px;
+  }
+
+  .video__title {
+    font-size: 30px;
+  }
+  .video__title .contact__form {
+    width: 470px;
+  }
+}

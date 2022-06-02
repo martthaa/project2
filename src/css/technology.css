@@ -1,0 +1,80 @@
+.technology {
+  padding: 63px 0 108px;
+  background: #FFFFFF;
+}
+.technology__title {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  line-height: 43px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+.technology__col-3 {
+  padding-top: 52px;
+  padding-bottom: 33px;
+  height: 226px;
+}
+.technology__col-3:first-child .technology__num::before {
+  content: url("../images/technology/Frame 3.svg");
+  position: absolute;
+  left: 50%;
+  top: 45px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.technology__col-3:nth-child(2) .technology__num::before {
+  content: url("../images/technology/Frame 4.svg");
+  position: absolute;
+  left: 50%;
+  top: 34px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.technology__col-3:nth-child(3) .technology__num::before {
+  content: url("../images/technology/Frame 5.svg");
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.technology__col-3:nth-child(4) .technology__num::before {
+  content: url("../images/technology/Frame 6.svg");
+  position: absolute;
+  left: 50%;
+  top: 35px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.technology__num {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  line-height: 120px;
+  color: rgba(16, 16, 16, 0.08);
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+}
+.technology__col-title {
+  margin-top: 19px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  line-height: 22px;
+  color: #101010;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+.technology__subtitle {
+  margin-top: 10px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  line-height: 14px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+}
