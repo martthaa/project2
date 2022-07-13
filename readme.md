@@ -1,3 +1,4 @@
 # Project 2
 
-CloudBudget https://martthaa.github.io/project2/
+Responsive layots
+Demo: https://martthaa.github.io/project2/
