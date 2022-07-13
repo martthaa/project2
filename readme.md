@@ -1,4 +1,4 @@
 # Project 2
 
-Responsive layots
+Responsive layots.
 Demo: https://martthaa.github.io/project2/
